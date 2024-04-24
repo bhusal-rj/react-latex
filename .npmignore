@@ -1,0 +1,21 @@
+# Ignore all files and directories starting with a dot
+.*
+
+# Ignore development and configuration files
+.git
+.gitignore
+.eslint*
+.prettier*
+.vscode
+.idea
+.npmrc
+.editorconfig
+.babelrc
+*.log
+
+# Ignore test files and directories
+__tests__
+test
+tests
+test.js
+*.spec.js
