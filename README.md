@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-latex
+npm install --save react-latex-parser
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save react-latex
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-latex'
-import 'react-latex/dist/index.css'
+import {Latex} from 'react-latex'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent latexExpression={"This is to render the latex"} />
   }
 }
 ```
