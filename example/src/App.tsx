@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-latex'
-import 'react-latex/dist/index.css'
+import Latex from 'react-latex-parser'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Latex latexExpression="Create React Library Example 😄" />
 }
 
 export default App
