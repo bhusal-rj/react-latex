@@ -15,7 +15,7 @@ npm install --save react-latex-parser
 ```tsx
 import React, { Component } from 'react'
 
-import {Latex} from 'react-latex'
+import Latex from 'react-latex'
 
 class Example extends Component {
   render() {
