@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/react-latex.svg)](https://www.npmjs.com/package/react-latex) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## React Latex Parser is the react library for parsing the latex expression in react.
+It dynamically loads the MathJax when the Latex component is called which eliminates the overhead of calling the cdn of MathJax when not required.
+
+
 ## Install
 
 ```bash
@@ -23,7 +27,6 @@ class Example extends Component {
   }
 }
 ```
-
 ## License
 
 MIT © [bhusal-rj](https://github.com/bhusal-rj)
