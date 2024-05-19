@@ -1,4 +1,4 @@
-# react-latex
+## react-latex
 
 > Made with create-react-library
 
@@ -21,6 +21,7 @@ import React, { Component } from 'react'
 
 import Latex from 'react-latex'
 
+//to render the latex text
 class Example extends Component {
   render() {
     return <MyComponent latexExpression={"This is to render the latex"} />
